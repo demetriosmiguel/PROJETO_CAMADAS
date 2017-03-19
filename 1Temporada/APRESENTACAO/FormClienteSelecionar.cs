@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace APRESENTACAO
 {
-    public partial class Form1 : Form
+    public partial class FormClienteSelecionar : Form
     {
-        public Form1()
+        public FormClienteSelecionar()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
